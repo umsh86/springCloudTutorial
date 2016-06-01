@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    resource:
+      url: http://localhost:9000
+    admin:
+      url: http://localhost:8089
+security:
+  sessions: always
